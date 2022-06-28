@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    flex: 1;
+    margin: 16px;
+    flex-basis: auto;
+    padding: 16px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 800; 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 400px;
+    flex: 1;
+}
+.list-title{
+    display: flex;
+    justify-content: center; 
+}
+
+.list{
+    text-decoration: none;
+}
+
+.testimonial{
+
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    display: flex;
+    margin-top: auto;
+    flex: 1;
+}
